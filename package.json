@@ -3,12 +3,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
   },
   "dependencies": {
+    "@hygraph/management-sdk": "^1.1.2",
+    "firebase": "^9.16.0",
+    "firebase-tools": "^11.21.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.1.0",
+    "html-react-parser": "^3.0.6",
+    "moment": "^2.29.4",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.2",
+    "sass": "^1.57.1"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
